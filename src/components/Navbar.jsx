@@ -31,7 +31,18 @@ export default function Navbar() {
         <>
             <AppBar position="static">
                 <Toolbar>
-                    <Typography variant="h6" sx={{ flexGrow: 1 }}>
+                    <Typography
+                        variant="h6"
+                        // sx={{ flexGrow: 1 }}
+                        component={Link}
+                        to="/"
+                        sx={{
+                            flexGrow: 1,
+                            color: 'inherit',          // 继承 Typography 默认颜色（通常是黑色或主题文字颜色）
+                            textDecoration: 'none',     // 强制去掉链接下划线
+                            boxShadow: 'none'          // 某些情况下防止阴影干扰
+                        }}
+                    >
                         Memorandum
                     </Typography>
 
