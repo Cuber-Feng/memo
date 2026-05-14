@@ -1,18 +1,40 @@
 import React from 'react';
 import { Typography, Container, Divider } from '@mui/material';
+import Header from '../../components/Header';
+import AlgoCard from '../../components/AlgoCard';
+import algos from '../../assets/algos/cfop-oll.json'; // JSON 导入
 
 export default function CFOP() {
     return (
         <Container sx={{ mt: 4 }}>
-            <Typography variant="h3">CFOP</Typography>
-            <Typography variant="body1">
-                PS: Now I only put the algorithms image here, and I will make it better in the future.
-            </Typography>
-            <Divider sx={{ my: 2 }} />
+            <Header
+                title="CFOP"
+                description="PS: Now I only put the algorithms image here, and I will make it better in the future."
+            />
             <Typography variant="h5">F2L</Typography>
             <Typography variant="body1">First Two Layers</Typography>
             <Typography variant="h5">OLL</Typography>
             <Typography variant="body1">Orientation of the Last Layer</Typography>
+
+            <Container
+                sx={{
+                    display: 'flex',
+                    flexWrap: 'wrap',
+                    justifyContent: 'center',
+                    padding: 0
+                }}
+            >
+                {algos.map((algo, index) => (
+                    <AlgoCard
+                        _case={algo._case}
+                        _type='oll'
+                        _size={120}
+                        key={index}
+                        _note={`${index + 1}`}
+                    />
+                ))}
+            </Container>
+
             <img src="/memo/oll1.jpg" alt="OLL1" style={{
                 width: '100%',
                 maxWidth: '800px'

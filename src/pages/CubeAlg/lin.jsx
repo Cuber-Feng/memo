@@ -1,12 +1,14 @@
 import React from 'react';
 import { Typography, Container, Divider } from '@mui/material';
+import Header from '../../components/Header';
 
 export default function Lin() {
     return (
         <Container sx={{ mt: 4 }}>
-            <Typography variant="h3">Lin</Typography>
-            <Typography variant="body1">Lin is like ROUX for SQ-1.</Typography>
-            <Divider sx={{ my: 2 }} />
+            <Header 
+                title="Lin"
+                description="Lin is like ROUX for SQ-1."
+            />
             <Typography variant='h5'>DF + CP</Typography>
             <Typography variant="body2">
                 Solve the DF edge and corners permutation at the same time.

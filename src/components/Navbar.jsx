@@ -1,6 +1,6 @@
 // src/components/Navbar.jsx
 import React, { useState } from 'react';
-import { AppBar, Toolbar, Typography, Button, IconButton, Drawer, List, ListItem, ListItemText, Box } from '@mui/material';
+import { AppBar, Toolbar, Typography, Button, IconButton, Drawer, List, ListItem, ListItemText, Box, ListItemButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
 
@@ -17,12 +17,12 @@ export default function Navbar() {
                 Pages
             </Typography>
             <List>
-                <ListItem button component={Link} to="/">
+                <ListItemButton component={Link} to="/">
                     <ListItemText primary="Cube" />
-                </ListItem>
-                <ListItem button component={Link} to="/about">
+                </ListItemButton>
+                <ListItemButton component={Link} to="/about">
                     <ListItemText primary="About" />
-                </ListItem>
+                </ListItemButton>
             </List>
         </Box>
     );
@@ -40,7 +40,10 @@ export default function Navbar() {
                             flexGrow: 1,
                             color: 'inherit',          // 继承 Typography 默认颜色（通常是黑色或主题文字颜色）
                             textDecoration: 'none',     // 强制去掉链接下划线
-                            boxShadow: 'none'          // 某些情况下防止阴影干扰
+                            boxShadow: 'none',          // 某些情况下防止阴影干扰
+                            '&:hover': {
+                                textDecoration: 'none'
+                            }
                         }}
                     >
                         Memorandum

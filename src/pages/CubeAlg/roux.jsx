@@ -1,12 +1,14 @@
 import React from 'react';
 import { Typography, Container, Divider } from '@mui/material';
+import Header from '../../components/Header';
 
 export default function ROUX() {
     return (
         <Container sx={{ mt: 4 }}>
-            <Typography variant="h3">ROUX</Typography>
-            <Typography variant="body1">Desk is essential for the ROUX method (one-handed).</Typography>
-            <Divider sx={{ my: 2 }} />
+            <Header 
+                title="ROUX"
+                description="Desk is essential for the ROUX method (one-handed)."
+            />
             <Typography variant="h5">CMLL(OH)</Typography>
             <Typography variant="body1">Permutation of the Last Layer</Typography>
             <Divider sx={{ my: 2 }} />
