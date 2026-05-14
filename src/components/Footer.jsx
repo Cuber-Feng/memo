@@ -5,12 +5,10 @@ import { Box, Typography, Link, Divider } from '@mui/material';
 export default function Footer() {
     return (
         <>
-            <Box sx={{ height: '100px' }} />
+            {/* <Box sx={{ height: '100px' }} /> */}
             <Box
                 component="footer"
                 sx={{
-                    position: 'fixed',
-                    bottom: 0,
                     width: '100%',
                     bgcolor: 'primary.main',
                     color: 'white',
