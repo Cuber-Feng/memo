@@ -14,12 +14,6 @@ export default function HeroCard({ title, description, to }) {
         // else do nothing, external is handled by href
     };
 
-    // const [mobileOpen, setMobileOpen] = useState(false);
-
-    // const handleDrawerToggle = () => {
-    //     setMobileOpen(!mobileOpen);
-    // };
-
     return (
         <Card sx={{
             // maxWidth: 345,
@@ -35,22 +29,6 @@ export default function HeroCard({ title, description, to }) {
                         {description}
                     </Typography>
                 </CardContent>
-                <CardActions>
-                    {isExternal ? (
-                        <Button
-                            size="small"
-                            href={to}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Learn More
-                        </Button>
-                    ) : (
-                        <Button size="small" onClick={handleClick}>
-                            Learn More
-                        </Button>
-                    )}
-                </CardActions>
             </CardActionArea>
         </Card>
     )
