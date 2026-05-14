@@ -5,8 +5,8 @@ import HeroCard from '../components/HeroCard';
 export default function Cube() {
     return (
         <Container sx={{ mt: 4 }}>
-            <Typography variant="h3">Rubik's Cube</Typography>
-            <Typography>When you forget the algorithms...</Typography>
+            <Typography variant="h3" sx={{textAlign: 'center'}}>Rubik's Cube</Typography>
+            <Typography sx={{textAlign: 'center'}}>When you forget the algorithms...</Typography>
             <Container sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'left' }}>
                 <HeroCard title="CFOP" description="F2L, OLL, PLL (119 algorithms)" to="/CubeAlg/cfop" />
                 <HeroCard title="ROUX(OH)" description="CMLL (42 algorithms)" to="/CubeAlg/roux" />

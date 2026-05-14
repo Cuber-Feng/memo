@@ -4,8 +4,8 @@ import { Typography, Container, Divider } from '@mui/material';
 export default function Lin() {
     return (
         <Container sx={{ mt: 4 }}>
-            <Typography variant="h3">LIN</Typography>
-            <Typography variant="body1">LIN is a method for solving the last layer of the Rubik's Cube.</Typography>
+            <Typography variant="h3">Lin</Typography>
+            <Typography variant="body1">Lin is like ROUX for SQ-1.</Typography>
             <Divider sx={{ my: 2 }} />
             <Typography variant='h5'>DF + CP</Typography>
             <Typography variant="body2">
@@ -22,7 +22,7 @@ export default function Lin() {
             <Typography variant="body2">
                 *For this case, put unsolved slot on DB and its corresponding edge on UR
             </Typography>
-            <Typography variant='h5'>CP</Typography>
+            <Typography variant='h5' sx={{paddingTop: '1.2rem'}}>CP</Typography>
             <Typography variant="body2">
                 Solve the corner permutation only in case you have solved the entire bottom layer at the last step.
             </Typography>
@@ -30,7 +30,7 @@ export default function Lin() {
                 <li>Adj Swap: <code>/ 3,-3 / -3,0 / 0,3 / 0,-3 / 0,3 /</code></li>
                 <li>Diag Swap: <code>/ -3,-3 / 3,0 / -3,-3 / 3,0 / -3,-3 /</code></li>
             </ul>
-            <Typography variant='h5'>EPLL</Typography>
+            <Typography variant='h5' sx={{paddingTop: '1.2rem'}}>EPLL</Typography>
             <Typography variant="body2">
                 Edge PLL
             </Typography>
@@ -40,7 +40,7 @@ export default function Lin() {
                 <li>H: <code>1,0 / -1,-1 / -2,1 / -1,-1 / -5,1 / -1,-1 / -2,1 / -1,-1 / 0,1</code></li>
                 <li>Z: <code>1,0 / -1,-1 / -2,1 / -1,-1 / 4,1 / -1,-1 / 0,1</code></li>
             </ul>
-            <Typography variant='h5'>Parity</Typography>
+            <Typography variant='h5' sx={{paddingTop: '1.2rem'}}>Parity</Typography>
             <Typography variant="body2">
                 This might be the most difficult algorithm of all Rubik's Cube puzzles.
             </Typography>

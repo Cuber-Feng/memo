@@ -4,8 +4,8 @@ import { Typography, Container, Divider } from '@mui/material';
 export default function About() {
     return (
         <Container sx={{ mt: 4 }}>
-            <Typography variant="h3">About</Typography>
-            <Typography variant="body1">This website is made for cubers. When you suddenly forget the algorithms, you can find them here.</Typography>
+            <Typography variant="h3" sx={{textAlign: 'center'}}>About</Typography>
+            <Typography variant="body1" sx={{textAlign: 'center'}}>This website is made for cubers. When you suddenly forget the algorithms, you can find them here.</Typography>
             <Divider sx={{ my: 2 }} />
             <Typography variant="h4">Contact</Typography>
             <Typography variant="body1">If you have any suggestions, please contact me at <a href="mailto:feng.cody@yahoo.com">feng.cody@yahoo.com</a></Typography>
