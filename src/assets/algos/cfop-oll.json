@@ -1,59 +1,78 @@
 [
     {
-        "_case": "R U2 (R'2 F R F') U2 (R' F R F')"
+        "_case": "R U2 (R'2 F R F') U2 (R' F R F')",
+        "_type": "dot"
     },
     {
-        "_case": "R U' R2 D' r U r' D R2 U R'"
+        "_case": "R U' R2 D' r U r' D R2 U R'",
+        "_type": "dot"
     },
     {
-        "_case": "R' F2 R2 U2 R' F R U2 R2 F2 R"
+        "_case": "R' F2 R2 U2 R' F R U2 R2 F2 R",
+        "_type": "dot"
     },
     {
-        "_case": "R' F2 R2 U2 R' F' R U2 R2 F2 R"
+        "_case": "R' F2 R2 U2 R' F' R U2 R2 F2 R",
+        "_type": "dot"
     },
     {
-        "_case": "r' U2 R U R' U r"
+        "_case": "r' U2 R U R' U r",
+        "_type": "l"
     },
     {
-        "_case": "r U2 R' U' R U' r'"
+        "_case": "r U2 R' U' R U' r'",
+        "_type": "l"
     },
     {
-        "_case": "r U R' U R U2 r'"
+        "_case": "r U R' U R U2 r'",
+        "_type": "l"
     },
     {
-        "_case": "r' U' R U' R' U2 r"
+        "_case": "r' U' R U' R' U2 r",
+        "_type": "l"
     },
     {
-        "_case": "R U R' U' R' F R2 U R' U' F'"
+        "_case": "R U R' U' R' F R2 U R' U' F'",
+        "_type": "l"
     },
     {
-        "_case": "R U R' U R' F R F' R U2 R'"
+        "_case": "R U R' U R' F R F' R U2 R'",
+        "_type": "l"
     },
     {
-        "_case": "S' U2 R U R' U R U2 R' S"
+        "_case": "S' U2 R U R' U R U2 R' S",
+        "_type": "l"
     },
     {
-        "_case": "S R' U' R U' R' U2 R U2 S'"
+        "_case": "S R' U' R U' R' U2 R U2 S'",
+        "_type": "l"
     },
     {
-        "_case": "F U R U' R2 F' R U R U' R'"
+        "_case": "F U R U' R2 F' R U R U' R'",
+        "_type": "line"
     },
     {
-        "_case": "R' F R U R' F' R F U' F'"
+        "_case": "R' F R U R' F' R F U' F'",
+        "_type": "line"
     },
     {
-        "_case": "l' U' l L' U' L U l' U l"
+        "_case": "l' U' l L' U' L U l' U l",
+        "_type": "line"
     },
     {
-        "_case": "r U r' R U R' U' r U' r'"
+        "_case": "r U r' R U R' U' r U' r'",
+        "_type": "line"
     },
     {
-        "_case": "R U R' U R' F R F' U2 R' F R F'"
+        "_case": "R U R' U R' F R F' U2 R' F R F'",
+        "_type": "dot"
     },
     {
-        "_case": "R U2 R2 F R F' U2 M' U R U' r'"
+        "_case": "R U2 R2 F R F' U2 M' U R U' r'",
+        "_type": "dot"
     },
     {
-        "_case": "M U R U R' U' M' R' F R F'"
+        "_case": "M U R U R' U' M' R' F R F'",
+        "_type": "dot"
     }
 ]

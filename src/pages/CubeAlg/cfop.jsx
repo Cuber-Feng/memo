@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Typography, Container, Divider, Box, Button } from '@mui/material';
+import { Typography, Container, Divider, Box, Button, colors } from '@mui/material';
 import Header from '../../components/Header';
 import AlgoCard from '../../components/AlgoCard';
 import ollalgo from '../../assets/algos/cfop-oll.json';
@@ -7,12 +7,13 @@ import pllalgo from '../../assets/algos/cfop-pll.json';
 
 export default function CFOP() {
     const [activeTab, setActiveTab] = useState('oll');
+    const [ollType, setOllType] = useState('dot'); // 'all', 'edge', 'corner'
 
     return (
         <Container sx={{ mt: 4 }}>
             <Header
                 title="CFOP"
-                description="PS: Now I only put the algorithms image here, and I will make it better in the future."
+                description="The most popular method for speed cubing."
             />
 
             <Box sx={{ display: 'flex', gap: 1, mb: 2, justifyContent: 'center' }}>
@@ -34,6 +35,71 @@ export default function CFOP() {
                 activeTab === 'oll' && (
                     <>
                         <Typography variant="h6" align='center'>Orientation of the Last Layer</Typography>
+
+                        <Box sx={{ display: 'flex', gap: 1, mb: 2, justifyContent: 'center' }}>
+                            <Button
+                                variant={ollType === 'dot' ? 'contained' : 'outlined'}
+                                onClick={() => setOllType('dot')}
+                                sx={{
+                                    bgcolor: 'secondary.main',
+                                    color: 'white',
+                                    '&.MuiButton-outlined': {
+                                        bgcolor: 'transparent',
+                                        color: 'secondary.main',
+                                    },
+                                    textTransform: 'none'
+                                }}
+                            >
+                                Dot
+                            </Button>
+                            <Button
+                                variant={ollType === 'l' ? 'contained' : 'outlined'}
+                                onClick={() => setOllType('l')}
+                                sx={{
+                                    bgcolor: 'secondary.main',
+                                    color: 'white',
+                                    '&.MuiButton-outlined': {
+                                        bgcolor: 'transparent',
+                                        color: 'secondary.main',
+                                    },
+                                    textTransform: 'none'
+                                }}
+                            >
+                                L
+                            </Button>
+                            <Button
+                                variant={ollType === 'line' ? 'contained' : 'outlined'}
+                                onClick={() => setOllType('line')}
+                                sx={{
+                                    bgcolor: 'secondary.main',
+                                    color: 'white',
+                                    '&.MuiButton-outlined': {
+                                        bgcolor: 'transparent',
+                                        color: 'secondary.main',
+                                    },
+                                    textTransform: 'none'
+                                }}
+                            >
+                                Line
+                            </Button>
+                            <Button
+                                variant={ollType === 'cross' ? 'contained' : 'outlined'}
+                                onClick={() => setOllType('cross')}
+                                sx={{
+                                    bgcolor: 'secondary.main',
+                                    color: 'white',
+                                    '&.MuiButton-outlined': {
+                                        bgcolor: 'transparent',
+                                        color: 'secondary.main',
+                                    },
+                                    textTransform: 'none'
+                                }}
+                            >
+                                Cross
+                            </Button>
+
+                        </Box>
+
                         <Container
                             sx={{
                                 display: 'flex',
@@ -42,16 +108,18 @@ export default function CFOP() {
                                 padding: 0
                             }}
                         >
-                            {ollalgo.map((algo, index) => (
-                                <AlgoCard
-                                    _case={algo._case}
-                                    _stage='oll'
-                                    _view='plan'
-                                    _size={80}
-                                    key={index}
-                                    _note={`${index + 1}`}
-                                />
-                            ))}
+                            {ollalgo.map((algo, index) =>
+                                algo._type === ollType &&
+                                (
+                                    <AlgoCard
+                                        _case={algo._case}
+                                        _stage='oll'
+                                        _view='plan'
+                                        _size={80}
+                                        key={index}
+                                        _note={`${index + 1}`}
+                                    />
+                                ))}
                         </Container>
                         <img src="/memo/oll1.jpg" alt="OLL1" style={{
                             width: '100%',
@@ -88,10 +156,6 @@ export default function CFOP() {
                                 />
                             ))}
                         </Container>
-                        <img src="/memo/pll.jpg" alt="PLL" style={{
-                            width: '100%',
-                            maxWidth: '800px'
-                        }} />
                     </>
                 )
             }

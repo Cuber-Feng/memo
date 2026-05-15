@@ -8,54 +8,79 @@
         "_name": "Ab"
     },
     {
-        "_case": "R' F2 R2 U2 R' F R U2 R2 F2 R"
+        "_case": "(R' U' R' D') (R U' R' D) (R U R' D') (R U R' D R2)",
+        "_name": "E"
     },
     {
-        "_case": "R' F2 R2 U2 R' F' R U2 R2 F2 R"
+        "_case": "(R' U' F') (R U R' U') (R' F R2 U' R' U' R U R' U R)",
+        "_name": "F"
     },
     {
-        "_case": "r' U2 R U R' U r"
+        "_case": "(R2 U R' U R' U') (R U' R2 D U' R' U R D')",
+        "_name": "Ga"
     },
     {
-        "_case": "r U2 R' U' R U' r'"
+        "_case": "(R' d' F) (R2 u R' U R U' R u' R2)",
+        "_name": "Gb"
     },
     {
-        "_case": "r U R' U R U2 r'"
+        "_case": "(R2 F2 R U2 R U2) (R' F R U R' U') (R' F R2)",
+        "_name": "Gc"
     },
     {
-        "_case": "r' U' R U' R' U2 r"
+        "_case": "(R U R' U' D) (R2 U' R U' R' U R' U R2 D')",
+        "_name": "Gd"
     },
     {
-        "_case": "R U R' U' R' F R2 U R' U' F'"
+        "_case": "M2 U' M2 U2 M2 U' M2",
+        "_name": "H"
     },
     {
-        "_case": "R U R' U R' F R F' R U2 R'"
+        "_case": "(r R'2 F R F') (R U2 r' U r U2 r')",
+        "_name": "Ja"
     },
     {
-        "_case": "S' U2 R U R' U R U2 R' S"
+        "_case": "(R U R' F') (R U R' U') (R' F R2 U' R')",
+        "_name": "Jb"
     },
     {
-        "_case": "S R' U' R U' R' U2 R U2 S'"
+        "_case": "(R U R' U) (R U R' F') (R U R' U' R' F R2 U' R' U2 R U' R')",
+        "_name": "Na"
     },
     {
-        "_case": "F U R U' R2 F' R U R U' R'"
+        "_case": "(L' U' L U) (r R'2 F R F') (R U2 r' U r U2 r') (U' L' U L)",
+        "_name": "Nb"
     },
     {
-        "_case": "R' F R U R' F' R F U' F'"
+        "_case": "(R U2 R' U2) (R B' R' U') (R U R B R2)",
+        "_name": "Ra"
     },
     {
-        "_case": "l' U' l L' U' L U l' U l"
+        "_case": "(R' U2 R U2) (R' F R U R' U') (R' F' R2)",
+        "_name": "Rb"
     },
     {
-        "_case": "r U r' R U R' U' r U' r'"
+        "_case": "(R U R' U') (R' F R2 U' R' U') (R U R' F')",
+        "_name": "T"
     },
     {
-        "_case": "R U R' U R' F R F' U2 R' F R F'"
+        "_case": "M2 U M U2 M' U M2",
+        "_name": "Ua"
     },
     {
-        "_case": "R U2 R2 F R F' U2 M' U R U' r'"
+        "_case": "M2 U' M U2 M' U' M2",
+        "_name": "Ub"
     },
     {
-        "_case": "M U R U R' U' M' R' F R F'"
+        "_case": "(R' U R U' R') f' (U' R U2 R' U' R U' R') f R",
+        "_name": "V"
+    },
+    {
+        "_case": "(F R U' R' U' R U R' F') (R U R' U' R' F R F')",
+        "_name": "Y"
+    },
+    {
+        "_case": "M' U' M2 U' M2 U' M' U2 M2",
+        "_name": "Z"
     }
 ]
