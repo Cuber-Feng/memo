@@ -1,0 +1,172 @@
+[
+    {
+        "_case": "R U2 R' U' R U2 z U' z' U R' U' z U z'",
+        "_type": "o",
+        "_note": "Adj"
+    },
+    {
+        "_case": "F R U' R' U' R U R' F' R U R' U' R' F R F'",
+        "_type": "o",
+        "_note": "Diag"
+    },
+    {
+        "_case": "R U2 R' U' R U R' U' R U' R'",
+        "_type": "h"
+    },
+    {
+        "_case": "F R U R' U' R U R' U' R U R' U' F'",
+        "_type": "h"
+    },
+    {
+        "_case": "R U2 R2 F R F' U2 R' F R F'",
+        "_type": "h"
+    },
+    {
+        "_case": "R' U' R U' R' U' z U z' U' R U z U' z'",
+        "_type": "h"
+    },
+    {
+        "_case": "F R U R' U' R U R' U' F'",
+        "_type": "pi"
+    },
+    {
+        "_case": "(U) F R' F' R U2 R U' R' U R U2' R'",
+        "_type": "pi"
+    },
+    {
+        "_case": "(U') F R U' R' U' R U R' U R U' R' F'",
+        "_type": "pi"
+    },
+    {
+        "_case": "R U2 R' U' R U R' U2 R' F R F'",
+        "_type": "pi"
+    },
+    {
+        "_case": "(U2) L' U R U' L U' R' U' R U' R'",
+        "_type": "pi"
+    },
+    {
+        "_case": "(U') R' U' R' F R F' R U' R' U2 R",
+        "_type": "pi"
+    },
+    {
+        "_case": "(U2) R2 D R' U2 R D' R' U2 R'",
+        "_type": "u"
+    },
+    {
+        "_case": "R2 D' R U2 R' D R U2 R",
+        "_type": "u"
+    },
+    {
+        "_case": "R' U' R U' R' U2 R2 U R' U R U2 R'",
+        "_type": "u"
+    },
+    {
+        "_case": "(U2) F R U R' U' R' U R U' F' U R' U' R",
+        "_type": "u"
+    },
+    {
+        "_case": "F R U' R' U R U R' U R U' R' F'",
+        "_type": "u"
+    },
+    {
+        "_case": "(U') F R U R' U' F'",
+        "_type": "u"
+    },
+    {
+        "_case": "(U') R U R' U' R' F R F'",
+        "_type": "t"
+    },
+    {
+        "_case": "(U') F R U' R' U R U R' F'",
+        "_type": "t"
+    },
+    {
+        "_case": "R U2 R' U' R U' R2 U2 R U R' U R",
+        "_type": "t"
+    },
+    {
+        "_case": "r' U r U2' R2 F R F' R",
+        "_type": "t"
+    },
+    {
+        "_case": "(U2) F R U R' U' R U' R' U' R U R' F'",
+        "_type": "t"
+    },
+    {
+        "_case": "R' U' R U' R' U R U' R' U F' U F R",
+        "_type": "t"
+    },
+    {
+        "_case": "(U) R U R' U R U2 R'",
+        "_type": "s"
+    },
+    {
+        "_case": "(U') R' U2 R U2 R f' U' f",
+        "_type": "s"
+    },
+    {
+        "_case": "(U) F R' F' R U2 R U2 R'",
+        "_type": "s"
+    },
+    {
+        "_case": "(U2) R' U' R U' R' U2 F R F' r U r'",
+        "_type": "s"
+    },
+    {
+        "_case": "(U') R U R' U R' F R F' R U2 R'",
+        "_type": "s"
+    },
+    {
+        "_case": "(U) R U' z U' z' U R' U' z U z'",
+        "_type": "s"
+    },
+    {
+        "_case": "(U) R' U' R U' R' U2 R",
+        "_type": "as"
+    },
+    {
+        "_case": "r U' r' F R' F' U2 R U R' U R",
+        "_type": "as"
+    },
+    {
+        "_case": "(U') F' r U r' U2 r' F2' r",
+        "_type": "as"
+    },
+    {
+        "_case": "(U') R U2 R' U2 R' F R F'",
+        "_type": "as"
+    },
+    {
+        "_case": "(U') z U' z' U R U' z U z' U R'",
+        "_type": "as"
+    },
+    {
+        "_case": "R' U' R U' R' U R' F R F' U R",
+        "_type": "as"
+    },
+    {
+        "_case": "(U2) F R U' R' U' R U R' F'",
+        "_type": "l"
+    },
+    {
+        "_case": "(U2) F R' F' R U R U' R'",
+        "_type": "l"
+    },
+    {
+        "_case": "R U2' R' U' R U R' U' R U R' U' R U' R'",
+        "_type": "l"
+    },
+    {
+        "_case": "(U2) R' U' R U2 z U' z' U R' U' z U z' U' R",
+        "_type": "l"
+    },
+    {
+        "_case": "R' U' R U' F U' R' U' R U F'",
+        "_type": "l"
+    },
+    {
+        "_case": "(U) R U R' U2' z U z' U' R U z U' z' U R'",
+        "_type": "l"
+    }
+]
